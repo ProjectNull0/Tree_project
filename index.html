@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Explore and visualize various tree data structures such as Binary Search Trees, Red/Black Trees, Dijkstra's Shortest Path, B-Trees, and AVL Trees." />
+	<meta name="keywords" content="Binary Search Tree, Red/Black Tree, Dijkstra, B-Trees, AVL Tree, Data Structures, Visualization" />
+	<title>Tree Data Structures Visualization</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			background-color: #f4f4f9;
+			color: #333;
+		}
+		.container {
+			width: 80%;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		h1, h2 {
+			color: #2c3e50;
+		}
+		h1 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		h2 {
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+		p {
+			line-height: 1.6;
+		}
+		.tree-list {
+			list-style-type: none;
+			padding: 0;
+		}
+		.tree-list li {
+			margin: 10px 0;
+			padding: 10px;
+			background-color: #e9ecef;
+			border-left: 5px solid #3498db;
+			transition: background-color 0.3s ease;
+		}
+		.tree-list li:hover {
+			background-color: #d6e4f0;
+		}
+		.tree-list a {
+			text-decoration: none;
+			color: #2c3e50;
+			font-weight: bold;
+		}
+		.tree-list a:hover {
+			color: #3498db;
+		}
+		footer {
+			text-align: center;
+			margin-top: 40px;
+			padding: 20px;
+			background-color: #2c3e50;
+			color: #fff;
+		}
+		footer a {
+			color: #3498db;
+			text-decoration: none;
+		}
+		footer a:hover {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Tree Data Structures Visualization</h1>
+		<p>
+			Welcome to the Tree Data Structures Visualization tool. This platform allows you to explore and understand various tree-based data structures through interactive visualizations. Below, you can select a specific tree type to learn more about it and visualize its behavior.
+		</p>
+
+		<h2>Select a Tree Structure</h2>
+		<ul class="tree-list">
+			<li>
+				<a href="BST.html" target="_blank">
+					Binary Search Tree (BST)
+				</a>
+				<p>
+					A Binary Search Tree is a node-based binary tree where each node has at most two children. For any given node, all elements in the left subtree are less than the node's value, and all elements in the right subtree are greater.
+				</p>
+			</li>
+			<li>
+				<a href="RedBlack.html" target="_blank">
+					Red/Black Tree
+				</a>
+				<p>
+					A Red/Black Tree is a self-balancing binary search tree where each node has an extra attribute: its color (red or black). These trees ensure that the tree remains balanced during insertions and deletions, maintaining O(log n) time complexity for operations.
+				</p>
+			</li>
+			<li>
+				<a href="Dijkstra.html" target="_blank">
+					Dijkstra's Shortest Path
+				</a>
+				<p>
+					Dijkstra's algorithm is used to find the shortest path between nodes in a graph. It is widely used in network routing protocols and other applications requiring pathfinding.
+				</p>
+			</li>
+			<li>
+				<a href="BTree.html" target="_blank">
+					B-Tree
+				</a>
+				<p>
+					A B-Tree is a self-balancing tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations. It is commonly used in databases and file systems.
+				</p>
+			</li>
+			<li>
+				<a href="AVLtree.html" target="_blank">
+					AVL Tree
+				</a>
+				<p>
+					An AVL Tree is a self-balancing binary search tree where the difference in heights between the left and right subtrees of any node is at most one. This ensures the tree remains balanced, providing O(log n) time complexity for operations.
+				</p>
+			</li>
+		</ul>
+	</div>
+
+	<footer>
+		<p>
+			&copy; 2023 Ashutosh Chandra Shah || BCT 2079 010. All rights reserved. | 
+			<a href="https://github.com/ProjectNull0/Tree_project" target="_blank">GitHub Repository</a>
+		</p>
+	</footer>
+</body>
+</html>
